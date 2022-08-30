@@ -45,7 +45,7 @@ annotation influence, aka supervision collapse.
 - June 15, 2022: Release of our preprint on [arXiv](https://arxiv.org/abs/2206.07267)
 
 ## Installation and Datasets
-For detailed instruction how to set up your environment, install required packages and download the datasets, please refer to the [installation instructions](https://github.com/mrkshllr/FewTURE/INSTALL.md).
+For detailed instruction how to set up your environment, install required packages and download the datasets, please refer to the [installation instructions](https://github.com/mrkshllr/FewTURE/blob/main/INSTALL.md).
 
 ## Training FewTURE
 For a glimpse at the documentation of all arguments available for training, please check for **self-supervised training**:
@@ -115,7 +115,7 @@ and the [DeepEMD](https://github.com/icoz69/DeepEMD) and
 
 
 ## License
-This repository is released under the Apache 2.0 license as found in the [LICENSE](https://github.com/mrkshllr/FewTURE/LICENSE) file.
+This repository is released under the Apache 2.0 license as found in the [LICENSE](https://github.com/mrkshllr/FewTURE/blob/main/LICENSE) file.
 
 ## Citing FewTURE
 If you find this repository useful, please consider giving us a star :star: and cite our [work](https://arxiv.org/abs/2206.07267):
