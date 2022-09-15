@@ -4,8 +4,10 @@ Official PyTorch implementation of the paper **Rethinking Generalization in Few-
 :mortar_board: :page_facing_up: Find our paper: [[arXiv]](https://arxiv.org/abs/2206.07267) &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp; 
 :bookmark: Reference: [[BibTeX]](https://github.com/mrkshllr/FewTURE#citing-fewture)
 
-## News
-**15/09/2022.** FewTURE is accepted by NeurIPS 2022! 🔥
+## Updates :tada:
+- September 15, 2022: **FewTURE is accepted at NeurIPS 2022!** :fire: 
+- August 30, 2022: Release of our code -- **Try out FewTURE!**  :sparkles: :computer: :arrow_left:
+- June 15, 2022: Release of our preprint on [arXiv](https://arxiv.org/abs/2206.07267)
 
 ## TL;DR :eyes:
 <div align="center">
@@ -41,11 +43,6 @@ annotation influence, aka supervision collapse.
     <img width="95%" alt="Importance weights 5shot" src=".github/token_weights_5shot.png">
 </div>
 
-
-
-## Updates :tada:
-- August 30, 2022: Release of our code -- **Try out FewTURE!**  :sparkles: :computer: :arrow_left:
-- June 15, 2022: Release of our preprint on [arXiv](https://arxiv.org/abs/2206.07267)
 
 ## Installation and Datasets
 For detailed instruction how to set up your environment, install required packages and download the datasets, please refer to the [installation instructions](https://github.com/mrkshllr/FewTURE/blob/main/INSTALL.md).
