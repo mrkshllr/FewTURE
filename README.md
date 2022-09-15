@@ -3,6 +3,7 @@ Official PyTorch implementation of the paper **Rethinking Generalization in Few-
 
 :mortar_board: :page_facing_up: Find our paper: [[arXiv]](https://arxiv.org/abs/2206.07267) &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp; 
 :bookmark: Reference: [[BibTeX]](https://github.com/mrkshllr/FewTURE#citing-fewture)
+
 ## News
 **15/09/2022.** FewTURE is accepted by NeurIPS 2022! 🔥
 
