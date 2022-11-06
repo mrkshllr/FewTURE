@@ -120,11 +120,14 @@ This repository is released under the Apache 2.0 license as found in the [LICENS
 ## Citing FewTURE
 If you find this repository useful, please consider giving us a star :star: and cite our [work](https://arxiv.org/abs/2206.07267):
 ```
-@article{hillerma2022fewture,
-  title={Rethinking Generalization in Few-Shot Classification},
-  author={Hiller, Markus and Ma, Rongkai and Harandi, Mehrtash and Drummond, Tom},
-  journal={arXiv preprint arXiv:2206.07267},
-  year={2022}
+@inproceedings{
+hillerma2022fewture,
+title={Rethinking Generalization in Few-Shot Classification},
+author={Markus Hiller and Rongkai Ma and Mehrtash Harandi and Tom Drummond},
+booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+year={2022},
+url={https://openreview.net/forum?id=p_g2nHlMus}
 }
 ```
 If you have any questions regarding our work, please feel free to reach out!
