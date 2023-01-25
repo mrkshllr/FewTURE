@@ -77,7 +77,8 @@ for training (we use 2 in our paper with a batch size of 64 per GPU), or experim
 
 _Note_: Make sure to provide the path to the folder where you stored the datasets via the `--data_path <path-to-dataset>` argument.
 
-###Self-Supervised Pretrained Models
+
+### Self-Supervised Pretrained Models
 You can use the following links to download the checkpoints of our pretrained models. <br> Note that all provided models have been trained in a self-supervised manner using **ONLY** the training split of the denoted few-shot image classification datasets and **NO** additional data.
 
 <table>
@@ -150,6 +151,7 @@ You can use the following links to download the checkpoints of our pretrained mo
 </table>
 
 *_Note_: Due to the comparably big size of the <i>tiered</i>ImageNet training set, we ran pretraining for only 800 epochs for ViT to reduce the computational load.
+
 
 ### Meta Fine-tuning 
 To start the meta fine-tuning procedure using a previously pretrained **ViT-small** architecture using 
