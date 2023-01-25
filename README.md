@@ -77,6 +77,80 @@ for training (we use 2 in our paper with a batch size of 64 per GPU), or experim
 
 _Note_: Make sure to provide the path to the folder where you stored the datasets via the `--data_path <path-to-dataset>` argument.
 
+###Self-Supervised Pretrained Models
+You can use the following links to download the checkpoints of our pretrained models. <br> Note that all provided models have been trained in a self-supervised manner using **ONLY** the training split of the denoted few-shot image classification datasets and **NO** additional data.
+
+<table>
+  <tr>
+    <th>Pretraining Dataset</th>
+    <th> Architecture</th>
+    <th> Epochs</th>
+    <th colspan="3">Download</th>
+  </tr>
+  <tr>
+    <td rowspan="2"><i>mini</i>ImageNet</td>
+    <td align="center">vit-small</td>
+    <td align="center">1600</td>
+    <td><a href="https://drive.google.com/file/d/16ed4kmJ4cAZaXKzpRV9N5EQrTFArEAqs/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1eiQPhaY7w0YmjFOYyrAIRRUKfRNLDoyV/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1FdjHFXf6CnveW8ki_iP0MwewGmQmdtnK/view?usp=share_link">logs</a></td>
+  </tr>
+  <tr>
+    <td align="center">swin-tiny</td>
+    <td align="center">&nbsp;800</td>
+    <td><a href="https://drive.google.com/file/d/1iWeDYLKfVSd06OMmaTYfhKAoV4lNuizB/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1FHaf8Omus-tD1CeDATpDnmqh6C8nphKO/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1OCimTYAY90KxK-XznX2IRrJTMv7CRPQm/view?usp=share_link">logs</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><i>tiered</i>ImageNet</td>
+    <td align="center">vit-small</td>
+    <td align="center">&nbsp;&nbsp;800*</td>
+    <td><a href="https://drive.google.com/file/d/1Fr17-oE6-WOJ3O1VYgZl6S417wx7PfFP/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1IZ8CqI2BJXQJXiBI45TzgRJ8VP-VmfRZ/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1N7P99sXZQab1lP_BHHDReKy5KKw0FqeC/view?usp=share_link">logs</a></td>
+  </tr>
+  <tr>
+    <td align="center">swin-tiny</td>
+    <td align="center">&nbsp;800</td>
+    <td><a href="https://drive.google.com/file/d/16vDA5dVigqXuzAf7mSGka6xWZDcJuQDH/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1fVUJvKMUAVkiNHUPURzznB8lb1aGwt0L/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1FFYOKHnKhaVrzTPYhwScxf8rlpOcDiuH/view?usp=share_link">logs</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">CIFAR-FS</td>
+    <td align="center">vit-small</td>
+    <td align="center">1600</td>
+    <td><a href="https://drive.google.com/file/d/1Qqk3nECzdXVHbkq2pGucKZd_Jh_4TFBT/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1eyUrtLefNr8aAoQ7kB5TJYR5PLsTFONZ/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1Y9Kp7AEy2nIfq-VT2h7KEQXhF7XEHvDo/view?usp=share_link">logs</a></td>
+  </tr>
+  <tr>
+    <td align="center">swin-tiny</td>
+    <td align="center">&nbsp;800</td>
+    <td><a href="https://drive.google.com/file/d/1MQpk_CQLS0jRIZp47w4IyYC2lWTqftcr/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1fD3A5fmbYiAyiRoAtrYe_Rt-GF0qB0Dl/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1l-xAOtv57ZmK1z1yyQ65yIWIRlkxj58n/view?usp=share_link">logs</a></td>
+  </tr>
+  <tr>
+    <td rowspan="2">FC100</td>
+    <td align="center">vit-small</td>
+    <td align="center">1600</td>
+    <td><a href="https://drive.google.com/file/d/1CCr0QVT79qYGVxWgMLJOOQ5xOfMZfOPH/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1kOKxHJh6AsjCnVWhKkDnCyH-l4MI6thn/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1QNkcSEswdtLqWp1R-RsBKPLn-bdPgsK6/view?usp=share_link">logs</a></td>
+  </tr>
+  <tr>
+    <td align="center">swin-tiny</td>
+    <td align="center">&nbsp;800</td>
+    <td><a href="https://drive.google.com/file/d/19p-hxFrfhrAbMWHZN0mfVwYXmdfMucyQ/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1ZUfERQ3qpQBDqRBu2hRLsnS7EpbLIRSU/view?usp=share_link">args</a></td>
+    <td><a href="https://drive.google.com/file/d/1fGlxg2mhK29Dbv_pGXRXXnQ_g3-xSR3P/view?usp=share_link">logs</a></td>
+  </tr>
+</table>
+
+*_Note_: Due to the comparably big size of the <i>tiered</i>ImageNet training set, we ran pretraining for only 800 epochs for ViT to reduce the computational load.
+
 ### Meta Fine-tuning 
 To start the meta fine-tuning procedure using a previously pretrained **ViT-small** architecture using 
 one GPU for **100 epochs** on the **miniImageNet** training dataset using **5 steps** to adapt the **token importance weights** via online-optimisation at inference time, run:
