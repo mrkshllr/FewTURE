@@ -155,14 +155,14 @@ You can use the following links to download the checkpoints of our pretrained mo
 
 ### Meta Fine-tuning 
 To start the meta fine-tuning procedure using a previously pretrained **ViT-small** architecture using 
-one GPU for **100 epochs** on the **miniImageNet** training dataset using **5 steps** to adapt the **token importance weights** via online-optimisation at inference time, run:
+one GPU for **100 epochs** on the **miniImageNet** training dataset using **15 steps** to adapt the **token importance weights** via online-optimisation at inference time, run:
 - For a 5-way 5-shot scenario:
 ```
-python3 train_metatrain_FewTURE.py --epochs 100 --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 5 --optim_steps_online 5  --chkpt_epoch 1599 --mdl_checkpoint_path <path-to-checkpoint-of-pretrained-model>
+python3 train_metatrain_FewTURE.py --num_epochs 100 --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 5 --optim_steps_online 15  --chkpt_epoch 1600 --mdl_checkpoint_path <path-to-checkpoint-of-pretrained-model>
 ```
 - For a 5-way 1-shot scenario:
 ```
-python3 train_metatrain_FewTURE.py --epochs 100 --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 1 --optim_steps_online 5  --chkpt_epoch 1599 --mdl_checkpoint_path <path-to-checkpoint-of-pretrained-model>
+python3 train_metatrain_FewTURE.py --num_epochs 100 --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 1 --optim_steps_online 15  --chkpt_epoch 1600 --mdl_checkpoint_path <path-to-checkpoint-of-pretrained-model>
 ```
 To instead meta fine-tune a pretrained hierarchical swin architecture, use the `--arch swin_tiny`. 
 
@@ -174,11 +174,11 @@ _Note_: Replace the `--data_path <path-to-dataset>` and possibly `--mdl_checkpoi
 To evaluate a meta-trained **ViT-small** architecture on the **miniImageNet** test dataset, run:
 - For a 5-way 5-shot scenario:
 ```
-python3 eval_FewTURE.py --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 5 --trained_model_type metaft --optim_steps_online 5  --mdl_checkpoint_path <path-to-checkpoint-of-metaft-model>
+python3 eval_FewTURE.py --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 5 --trained_model_type metaft --optim_steps_online 15  --mdl_checkpoint_path <path-to-checkpoint-of-metaft-model>
 ```
 - For a 5-way 1-shot scenario:
 ```
-python3 eval_FewTURE.py --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 1 --trained_model_type metaft --optim_steps_online 5  --mdl_checkpoint_path <path-to-checkpoint-of-metaft-model>
+python3 eval_FewTURE.py --data_path <path-to-dataset> --arch vit_small --n_way 5 --k_shot 1 --trained_model_type metaft --optim_steps_online 15  --mdl_checkpoint_path <path-to-checkpoint-of-metaft-model>
 ```
 
 
