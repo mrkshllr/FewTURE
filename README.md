@@ -92,7 +92,7 @@ You can use the following links to download the checkpoints of our pretrained mo
     <td rowspan="2"><i>mini</i>ImageNet</td>
     <td align="center">vit-small</td>
     <td align="center">1600</td>
-    <td><a href="https://drive.google.com/file/d/16ed4kmJ4cAZaXKzpRV9N5EQrTFArEAqs/view?usp=share_link">checkpoint</a></td>
+    <td><a href="https://drive.google.com/file/d/1Wi6susAbOATD_UlwKqKG4oSfiFKLOGST/view?usp=share_link">checkpoint</a></td>
     <td><a href="https://drive.google.com/file/d/1eiQPhaY7w0YmjFOYyrAIRRUKfRNLDoyV/view?usp=share_link">args</a></td>
     <td><a href="https://drive.google.com/file/d/1FdjHFXf6CnveW8ki_iP0MwewGmQmdtnK/view?usp=share_link">logs</a></td>
   </tr>
